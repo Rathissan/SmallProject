@@ -1,2 +1,2 @@
 # SmallProjects
-Voici des petits projets que j'ai décidé de faire sur mon temps libre.
+Voici des petits projets en javascript que j'ai décidé de faire sur mon temps libre.
