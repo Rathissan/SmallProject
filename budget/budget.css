@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+    color: black;
+}
+
+body{
+    display: flex;
+    justify-content : center;
+
+}
+
+.main {
+    display: flex;
+    flex-direction : column;
+    padding: 5px 10px;
+    background-color: #2980b9;
+    min-height : 40vh;
+}
+.main :not(:empty) {
+    padding: 5px 0;
+}
+
+.main > p ~ :not(:empty) {
+    border-top: 1px solid white;
+}
