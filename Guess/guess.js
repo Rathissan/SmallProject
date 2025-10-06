@@ -1,12 +1,13 @@
-let randomNumber = Math.floor(Math.random() * 10) + 1; // Generate a random number between 1 and 10
-let i = 0;
-while (i < 3) {
-    if (document.getElementById("guess").value == randomNumber) {
-        alert("You win!");
-        break;
-    } else {
-        alert("Try again!");
-        break;
+function Guess(int findMe, int maxTry){
+    let i=0;
+    while (i < maxTry) {
+        if (document.getElementById("guess").value == findMe) {
+            alert("You win!");
+            break;
+        } else {
+            alert("Try again!");
+            break;
+        }
+        i++;
     }
-    i++;
 }
